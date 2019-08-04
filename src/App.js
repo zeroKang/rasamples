@@ -3,7 +3,8 @@ import logo from './logo.svg';
 import './App.css';
 import Sample from './Sample'; 
 import Sample2 from './Sample2';
-
+import SampleButton from './SampleButton';
+import Box from './Box';
 
 function App() {
 
@@ -17,8 +18,14 @@ function App() {
         <p>
           {name} {num + 100}
         </p>
-        <Sample></Sample>
-        <Sample2></Sample2>
+        <Box title="Box Sample">
+
+          <Sample></Sample>
+          <Sample2></Sample2>
+          <SampleButton></SampleButton>
+          
+        </Box>
+        
         <a
           className="App-link"
           href="https://reactjs.org"
