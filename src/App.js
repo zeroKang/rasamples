@@ -1,6 +1,9 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import Sample from './Sample'; 
+import Sample2 from './Sample2';
+
 
 function App() {
 
@@ -14,6 +17,8 @@ function App() {
         <p>
           {name} {num + 100}
         </p>
+        <Sample></Sample>
+        <Sample2></Sample2>
         <a
           className="App-link"
           href="https://reactjs.org"
